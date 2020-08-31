@@ -12,5 +12,6 @@ FUNCTIONALITY:
 
 EXAMPLE:
 
- My name is Jane , I am 20 years old.I live with my sisters,brothers and our parents at California. My favorite food is pizza and chicken.
-My name is Jane, I am 20 years old. I live with my sisters, brothers, and our parents at California. My favorite food is pizza and chicken.
+Original text: My name is Jane , I am 20 years old.I live with my sisters,brothers and our parents at California. My favorite food is pizza and chicken.
+
+Fixed text: My name is Jane, I am 20 years old. I live with my sisters, brothers, and our parents at California. My favorite food is pizza and chicken.
