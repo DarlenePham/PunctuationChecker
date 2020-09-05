@@ -11,8 +11,8 @@ FUNCTIONALITY:
 - Fix the comma to be in right position.
 - Add a comma before the word "and" if the sentence is a list with longer than 2 objects.
 - Example: 
- + I live with my sisters,brothers and our parents at California. => I live with my sisters, brothers, and our parents at California.
- + My favorite food is pizza and chicken. => My favorite food is pizza and chicken. (doesn't change because comma is unnecessary)
+1. I live with my sisters,brothers and our parents at California. => I live with my sisters, brothers, and our parents at California.
+2. My favorite food is pizza and chicken. => My favorite food is pizza and chicken. (doesn't change because comma is unnecessary)
 
 *Colon:
 - Capitalize letter after colon.
