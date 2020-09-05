@@ -10,6 +10,7 @@ public class Driver {
 		original = input.nextLine().trim();
 		Punctuation p = new Punctuation();
 		Comma c = new Comma();
+		Colon cl = new Colon();
 		for(int i = 0; i < original.length(); i++)
 		{
 			switch(original.charAt(i))
@@ -18,7 +19,7 @@ public class Driver {
 			break;
 			case ',': 
 				{
-					c.commaHandler(i);
+					c.commaHandler();
 					c.countComma();
 				}
 			break;
@@ -30,14 +31,15 @@ public class Driver {
 			break;
 			case '.': 
 				{
+					cl.colonHandler();
 					c.resetComma();
-					p.insertChar(original.charAt(i));
 				}
 			break;
 			default: 
 				{
-					p.addSpaceAfter(i);
+					p.addSpaceAfter();
 					p.insertChar(original.charAt(i));
+					cl.capitalizeLetter();
 				}
 			}
 		}

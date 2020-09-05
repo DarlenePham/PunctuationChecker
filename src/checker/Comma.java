@@ -4,9 +4,9 @@ public class Comma extends Punctuation {
 	private int count = 0;
 	
 	// Comma handler
-	public void commaHandler(int i) {
+	public void commaHandler() {
 		countComma();
-		deleteSpaceBefore(i);
+		deleteSpaceBefore();
 		addComma();
 	}
 	

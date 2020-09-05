@@ -5,13 +5,13 @@ public class Punctuation {
 	private char[] spaceAfterPun = {',', '.', '!', ':', ';', '?', ')'};
 	
 	// Delete space before punctuation if necessary
-	public void deleteSpaceBefore(int i) {
+	public void deleteSpaceBefore() {
 		if(Character.isWhitespace(result.charAt(result.length()-1)))
 			result = result.substring(0, result.length()-1);
 	}
 	
 	// Add space after character
-	public void addSpaceAfter(int i) {
+	public void addSpaceAfter() {
 		for(char x : spaceAfterPun)
 		{
 			if(result != "" && result.charAt(result.length()-1) == x)
