@@ -1,6 +1,11 @@
 # PunctuationChecker
 This program help fixing the punctuation of the original text to be grammatically correct.
 
+HOW TO USE:
+- Download the code and run with cmd (click on the PROJECT file).
+- Input the text. Hit enter.
+- The program will show the final result. 
+
 FUNCTIONALITY:
 
 *Whitespace:
