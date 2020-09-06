@@ -13,7 +13,6 @@ public class Colon extends Punctuation {
 	// Add colon
 	public void addColon() {
 		insertChar('.');
-		insertChar(' ');
 	}
 	
 	// Capitalize letter

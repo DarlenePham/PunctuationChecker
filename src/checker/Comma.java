@@ -13,7 +13,6 @@ public class Comma extends Punctuation {
 	// Add comma
 	public void addComma() {
 		insertChar(',');
-		insertChar(' ');
 	}
 	
 	// Check if the word is "and"
@@ -31,6 +30,7 @@ public class Comma extends Punctuation {
 		{
 			result = result.substring(0, result.length()-1);
 			addComma();
+			addSpaceAfter();
 		}
 	}
 	
